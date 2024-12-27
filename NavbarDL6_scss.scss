@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    margin-top: 0.4%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    p {
+      font-weight: bold;
+      display: inline-flex;
+      font-size: 20px;
+      text-align: center;
+      margin-left: 10px;
+      width: 150px;
+    }
+  
+    img {
+      margin-left: 30px;
+      width: 45px; // Adjust the width as needed
+    }
+  }
+  
+  .search-bar {
+    margin-left: 55%;
+    display: flex;
+    align-items: center;
+  
+    input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      border-right: none;
+    }
+  
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  
+  nav {
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 100%;
+  
+    ul {
+      width: 100%;
+      list-style: none;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+  
+      li:not(#img_li) {
+        margin-right: 20px;
+      }
+  
+      a {
+        text-decoration: none;
+        color: #333;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+  
+      hr {
+        height: 5vh;
+        width: 0.15vw;
+        margin: 0;
+        padding: 0;
+        border-width: 0;
+        background-color: darkgray;
+      }
+  
+      select {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+  
+      li img {
+        margin-right: -30px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+  
+      #delivery_text {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+      }
+    }
+  
+    .fa-solid {
+      position: absolute;
+      margin-left: 290px;
+    }
+  
+    .fa {
+      margin-right: 5px;
+    }
+  
+    #top_nav {
+      display: flex;
+    }
+  }
+  
