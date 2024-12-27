@@ -1,0 +1,142 @@
+.navbar-1 {
+    font-family: Arial, sans-serif;
+  
+    .top-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #fff;
+  
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+  
+        img {
+          height: 40px;
+        }
+  
+        span {
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+  
+      .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        padding: 5px;
+        width: 300px;
+  
+        input {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          background-color: transparent;
+          font-size: 14px;
+        }
+  
+        img {
+          height: 20px;
+          cursor: pointer;
+          margin-left: -30px; // Positioning icon within the input
+        }
+      }
+  
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+  
+        a {
+          text-decoration: none;
+          color: #333;
+          font-size: 16px;
+          padding: 5px 10px;
+          transition: all 0.3s ease;
+  
+          &:hover {
+            background-color: #007bff;
+            color: white;
+          }
+        }
+      }
+  
+      .separator {
+        border-left: 2px solid #000;
+        height: 20px;
+      }
+  
+      .search-button {
+        display: inline-block;
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+  
+      .icons {
+        display: flex;
+        gap: 15px;
+  
+        img {
+          height: 25px;
+          cursor: pointer;
+          transition: transform 0.3s ease;
+  
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  
+    .bottom-line {
+      background-color: #f1f1f1; // Light grey background
+      padding: 10px 0;
+      text-align: center;
+  
+      .category-box {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto; // Center the category box
+  
+        .category {
+          background-color: transparent; // No grey background, just text
+          color: #333;
+          padding: 8px 15px;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: #007bff; // Hover effect on categories
+            color: white;
+          }
+        }
+      }
+    }
+  
+    .dark-line {
+      height: 2px;
+      background-color: #000;
+      width: 100%; // Ensure the line spans the full width
+      margin-top: 10px; // Space between the second line and the dark line
+    }
+  }
+  
