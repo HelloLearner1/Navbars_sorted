@@ -1,0 +1,122 @@
+$primary-color: #007BFF;
+$secondary-color: #333;
+$background-color: #f8f8f8;
+$border-color: #ddd;
+$grey-color: grey;
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid black;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+  .top-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: $background-color;
+    border-bottom: 1px solid $border-color;
+
+    .left-info {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      span {
+        color: $grey-color;
+      }
+
+      select {
+        border: 1px solid $border-color;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+
+    .right-info {
+      span {
+        color: $grey-color;
+        margin-right: 20px; // Space between the items
+      }
+    }
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+
+    .logo {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 40px;
+        margin-right: 10px;
+      }
+
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        color: $secondary-color;
+      }
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+
+      a {
+        text-decoration: none;
+        color: $secondary-color;
+        font-size: 16px;
+        font-weight: 500;
+
+        &:hover {
+          color: $primary-color;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .search-bar {
+        display: flex;
+        align-items: center;
+        border: 2px solid $primary-color;
+        border-radius: 5px;
+        padding: 5px 15px;
+        background-color: #ffffff;
+
+        input {
+          border: none;
+          outline: none;
+          background: none;
+          padding: 5px;
+          width: 200px;
+          font-size: 14px;
+        }
+
+        i {
+          color: $primary-color;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
