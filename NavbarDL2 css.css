@@ -1,0 +1,155 @@
+/* Navbar Container */
+.navbar {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* First Line of Navbar */
+  .top-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+  }
+  
+  /* Logo Section */
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .logo span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 14px;
+  }
+  
+  .search-bar img {
+    height: 20px;
+    cursor: pointer;
+    margin-left: -30px; /* Positioning icon within the input */
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Icons Section */
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icons img {
+    height: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Second Line of Navbar (Product Categories) */
+  .bottom-line {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Category Box */
+  .category-box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .category {
+    background-color: transparent;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Dark Line after Second Line */
+  .dark-line {
+    height: 2px;
+    background-color: #000;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Third Line and its Content */
+  .third-line {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+  }
+  
+  /* Mobile Accessories Section */
+  .mobile-accessories-section {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Category Heading Styles */
+  .category-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  
+  /* Adjusting the layout for mobile accessories */
+  .mobile-accessories-section .category-box {
+    margin-top: 20px;
+  }

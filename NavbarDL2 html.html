@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <link rel="stylesheet" href="NavbarDL2 css.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar-1">
+    <!-- First Line of Navbar -->
+    <div class="top-line">
+      <!-- Logo Section -->
+      <div class="logo">
+        <img src="F:\Nishika\Wolfx\Images\Company Logo.png" alt="Company Logo" />
+        <span>Company Logo</span>
+      </div>
+      
+      <!-- Search Bar Section -->
+      <div class="search-bar">
+        <input type="text" placeholder="Search Product" />
+        <img src="F:\Nishika\Wolfx\Images\Union.png" alt="Search Icon" />
+      </div>
+      
+      <!-- Navigation Links -->
+      <div class="nav-links">
+        <a href="#search-products" class="search-button">Search</a> <!-- Search Button -->
+        <div class="separator"></div> <!-- Separator for the lines -->
+        <a href="#about-us">About Us</a> <!-- About Us -->
+        <div class="separator"></div> <!-- Separator for the lines -->
+        <a href="#blogs">Blogs</a> <!-- Blogs -->
+        <div class="separator"></div> <!-- Separator for the lines -->
+        <a href="#support">Support</a> <!-- Support -->
+      </div>
+
+      <!-- Icons Section -->
+      <div class="icons">
+        <img src="F:\Nishika\Wolfx\Images\shopping-bag.png" alt="Shopping Bag" />
+        <img src="F:\Nishika\Wolfx\Images\user-circle.png" alt="User Icon" />
+      </div>
+    </div>
+    
+    <!-- Second Line (Product Categories) -->
+    <div class="bottom-line">
+      <div class="category-box">
+        <div class="category">Women Ethnic</div>
+        <div class="category">Women Western</div>
+        <div class="category">Men's</div>
+        <div class="category">Kids</div>
+        <div class="category">Beauty & Health</div>
+        <div class="category">Bags & Footwear</div>
+        <div class="category">Electronics</div>
+      </div>
+    </div>
+    <!-- Dark Line After Second Line -->
+    <div class="dark-line"></div>
+
+    <!-- Third Line (Mobile Accessories Section) -->
+    <div class="third-line">
+      <div class="mobile-accessories-section">
+        <!-- First Heading -->
+        <div class="category-heading">Mobile Accessories</div>
+        <div class="category-box">
+          <div class="category">Mobiles & Accessories</div>
+          <div class="category">Smart Watches</div>
+          <div class="category">Mobile Holders</div>
+        </div>
+      </div>
+
+      <!-- Second Heading -->
+      <div class="category-heading">Mobile Accessories Including</div>
+      <div class="category-box">
+        <div class="category">Power Banks</div>
+        <div class="category">Earphones & Headphones</div>
+        <div class="category">Chargers</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Optional Styling -->
+  <style>
+    /* Third Line and its Content */
+    .third-line {
+      background-color: #f1f1f1;
+      padding: 20px 0;
+    }
+
+    .mobile-accessories-section {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* Category Heading Styles */
+    .category-heading {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      padding-left: 20px;
+    }
+
+    /* Adjusting the layout for mobile accessories */
+    .category-box {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+    .category {
+      background-color: transparent;
+      color: #333;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .category:hover {
+      background-color: #007bff;
+      color: white;
+    }
+  </style>
+</body>
+</html>
