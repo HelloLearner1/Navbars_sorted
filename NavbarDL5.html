@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Design</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* styles.css */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            border-bottom: 2px solid black;
+        }
+
+        .top-links {
+            margin-top: 10px;
+            display: flex;
+            padding: 10px 20px;
+/*            background-color: #f9f9f9;*/
+            font-size: 14px;
+            border-bottom: 1px solid #ddd;
+        }
+        #left-links a{
+            margin: 0 15px;
+            text-decoration: none;
+            color: #A9A9A9;
+        }
+
+        #right-icons{
+            position: absolute;
+            margin-left: 85%;
+        }
+
+        .main-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: white;
+        }
+
+        /* Logo Section */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.logo span {
+    font-size: 18px;
+    font-weight: bold;
+}
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .search-bar input {
+            padding: 8px 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            width: 250px;
+            border-radius: 4px;
+            outline: none;
+            font-size: 14px;
+        }
+        .fa-solid{
+            position: absolute;
+            margin-left: 240px;
+        }
+
+        .icons img, #right-icons img{
+            width: 24px;
+            height: 24px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .fa-brands{
+            size: 20px;
+            margin-right: 20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="top-links">
+            <div id="left-links">
+                <a href="#">About Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Help</a>
+                <a href="#">Delivery</a>
+            </div>
+
+            <div id="right-icons">
+                <i class="fa-brands fa-instagram" style="color: #a9a9a9;"></i>
+                <i class="fa-brands fa-whatsapp" style="color: #a9a9a9;"></i>
+                <i class="fa-brands fa-facebook" style="color: #a9a9a9;"></i>
+                <i class="fa-brands fa-x-twitter" style="color: #a9a9a9;"></i>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="logo">
+                <img src="Company Logo.png" alt="Company Logo">
+                <span>Company Logo</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Product</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Accessories</a>
+            </div>
+            <div class="nav-right">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search Product">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #a9a9a9;"></i>
+                </div>
+                <div class="icons">
+                    <img src="F:\Nishika\Wolfx\Images\shopping-bag.png" alt="Shopping Bag" />
+                    <img src="https://cdn-icons-png.flaticon.com/256/552/552721.png" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
