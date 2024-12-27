@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <link rel="stylesheet" href="Navbar6 css.css">
+</head>
+<body>
+  <nav class="navbar-1">
+    <!-- Logo Section -->
+    <div class="logo">
+      <img src="F:\Nishika\Wolfx\Images\Company Logo.png" alt="Company Logo" />
+      <span>Company Logo</span>
+    </div>
+    
+    <!-- Navigation Links -->
+    <div class="nav-links">
+        <a href="#Home.html">Home</a>
+        <a href="#Categories.html">Categories</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#about-us">About Us</a>
+    </div>
+    
+    <!-- Icons Section -->
+    <div class="icons">
+        <img src="F:\Nishika\Wolfx\Images\x.png" alt="Cross" />
+        <img src="F:\Nishika\Wolfx\Images\shopping-bag.png" alt="Shopping Bag" />
+        <img src="F:\Nishika\Wolfx\Images\user-circle.png" alt="User Icon" />
+    </div>
+  </nav>
+
+  <!-- Search Bar Section (on second line) -->
+  <div class="search-bar-container">
+    <div class="search-bar" id="search-bar">
+      <input type="text" placeholder="Search Product" />
+      <img src="F:\Nishika\Wolfx\Images\Union.png" alt="Search Icon" onclick="toggleSearch()" />
+    </div>
+  </div>
+
+  <script>
+    // Function to toggle search bar visibility on click
+    function toggleSearch() {
+      const searchBar = document.querySelector('.search-bar');
+      searchBar.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
